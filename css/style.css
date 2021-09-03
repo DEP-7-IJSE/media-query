@@ -3,10 +3,47 @@
 *{
     font-family: 'Ubuntu', sans-serif;
     box-sizing: border-box;
+    letter-spacing: 1px;
 }
 
-h1{
-    color: red;
+nav{
+    background-color: brown;
+    position: relative;
+}
+
+img{
+    padding: 5px 10px;
+    width: 300px;
+}
+
+menu{
+    padding: 10px ;
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+menu li{
+    font-weight: bold;
+    display: inline;
+    padding: 0 70px;
+    font-size: 20px;
+}
+
+section{
+    padding: 10px;
+}
+
+h1, p{
+    margin: 10px 0;
+    line-height: 30px;
+}
+
+footer{
+    margin: 10px;
+    position: relative;
+    text-align: center;
 }
 
 
