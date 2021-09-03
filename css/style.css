@@ -27,7 +27,7 @@ menu{
 menu li{
     font-weight: bold;
     display: inline;
-    padding: 0 70px;
+    padding: 0 40px;
     font-size: 20px;
 }
 
@@ -47,14 +47,30 @@ footer{
 }
 
 
-@media all and (min-width: 360px) and (max-width: 500px){
-    h1{
-        color: green;
+@media all and (min-width: 570px) and (max-width: 992px){
+    img{
+        position: relative;
+        width: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    menu{
+        position: relative;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+    }
+
+    menu li{
+        text-align: center;
+        padding: 10px;
+        display: block;
     }
 }
 
 @media all and (min-width: 768px) {
     h1{
-        color: blue;
+        
     }
 }
