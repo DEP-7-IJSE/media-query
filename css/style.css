@@ -69,8 +69,33 @@ footer{
     }
 }
 
-@media all and (min-width: 768px) {
+@media all and (max-width: 570px) {
+    img{
+        position: relative;
+        width: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
     h1{
-        
+        font-size: 23px;
+    }
+
+    menu{
+        position: relative;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+    }
+    
+    menu li{
+        font-size: 15px;
+        text-align: center;
+        padding: 10px;
+        display: block;
+    }
+
+    footer,p{
+        font-size: 15px;
     }
 }
