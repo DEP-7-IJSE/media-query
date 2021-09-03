@@ -8,7 +8,8 @@
 
 .nav-bar {
   background-color: #b2bec3;
-  position: relative;
+  position: sticky;
+  top: 0;
 }
 
 .image-logo {
